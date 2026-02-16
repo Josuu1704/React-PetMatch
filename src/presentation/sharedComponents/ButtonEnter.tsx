@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     gradient: {
         alignItems: "center",
         padding:15,
-        borderRadius: 10,
+        borderRadius: 20,
     },
 
     textButton: {
