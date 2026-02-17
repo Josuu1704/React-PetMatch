@@ -3,11 +3,12 @@ import {LinearGradient} from "expo-linear-gradient";
 
 type Props = {
     text: string,
+    fnDeOtroComponente: () => void,
     type?: "default" | "primary" | "secondary"
 }
 
 export const ButtonInicio = (
-    {text, type = "default"}:Props
+    {text, fnDeOtroComponente, type = "default"}:Props
 ) => {
     return (
         <TouchableOpacity
@@ -15,6 +16,10 @@ export const ButtonInicio = (
                 styles.buttonContainer,
                 type === "primary" ? {width:"95%", alignSelf:"center"} : null,
             ]}
+
+            onPress={() => {
+                fnDeOtroComponente();
+            }}
             >
 
             <LinearGradient

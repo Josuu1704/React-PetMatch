@@ -1,9 +1,7 @@
-import {InicioView} from "./src/presentation/views/auth/Inicio/InicioView";
-import LoginView from "./src/presentation/views/auth/Login/LoginView";
-import RegisterView from "./src/presentation/views/auth/Register/RegisterView";
+import {AppNavigator} from "./src/presentation/navigation/RootNavigator";
 
 export default function App(){
-    return (
-        <RegisterView></RegisterView>
+    return(
+        <AppNavigator></AppNavigator>
     )
 }

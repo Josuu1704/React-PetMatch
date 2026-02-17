@@ -4,7 +4,7 @@ import {ButtonEnter} from "../../../sharedComponents/ButtonEnter";
 
 
 
-const LoginView=() =>{
+const  RegisterView=() =>{
     return (
         <View>
 
@@ -44,4 +44,4 @@ const LoginView=() =>{
     )
 }
 
-export default LoginView;
+export default RegisterView;
