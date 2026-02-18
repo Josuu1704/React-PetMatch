@@ -1,18 +1,12 @@
-import {ScrollView, View} from "react-native";
-import {Card} from 'react-native-material-cards';
+import {ScrollView, Text, View} from "react-native";
+import {Card} from "react-native-paper";
+import {styles} from "./HomeStyles";
+import {HeaderComponent} from "./components/header";
 
 
 const HomeView = () => {
     return (
-        <ScrollView>
-            <View>
-                <View>
-                    <Card>
-
-                    </Card>
-                </View>
-            </View>
-        </ScrollView>
+        <HeaderComponent></HeaderComponent>
     )
 }
 
